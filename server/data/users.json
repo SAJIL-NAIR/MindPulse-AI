@@ -1,0 +1,8 @@
+[
+  { "id": "e1", "name": "Alice Johnson", "role": "employee", "department": "Customer Service", "managerId": "m1", "password": "employee123" },
+  { "id": "e2", "name": "Brian Smith", "role": "employee", "department": "Customer Service", "managerId": "m1", "password": "employee123" },
+  { "id": "e3", "name": "Carla Rodriguez", "role": "employee", "department": "Sales", "managerId": "m1", "password": "employee123" },
+  { "id": "e4", "name": "David Chen", "role": "employee", "department": "Support", "managerId": "m1", "password": "employee123" },
+  { "id": "e5", "name": "Erin Patel", "role": "employee", "department": "Sales", "managerId": "m1", "password": "employee123" },
+  { "id": "m1", "name": "Manager Morgan", "role": "manager", "department": "Operations", "managerId": null, "password": "manager123" }
+]

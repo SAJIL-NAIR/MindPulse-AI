@@ -1,0 +1,307 @@
+[
+  {
+    "id": "f1",
+    "employeeId": "e1",
+    "weekOf": "2026-03-16",
+    "emotionalState": "anxious",
+    "stressLevel": 7,
+    "workloadIntensity": 8,
+    "customerDifficulty": 6,
+    "textFeedback": "This week was quite stressful with multiple escalations. I felt overwhelmed by the number of difficult customer calls. Need better support from the team.",
+    "sentimentScore": -0.55,
+    "sentimentLabel": "Negative",
+    "overallScore": 70,
+    "burnoutRisk": "High",
+    "aiInsights": [
+      "Your stress levels have been consistently elevated. Consider scheduling short 5-minute breaks between calls.",
+      "Reaching out to your team lead for support could help distribute the workload more evenly.",
+      "Practicing deep breathing exercises before calls may help manage anxiety."
+    ]
+  },
+  {
+    "id": "f2",
+    "employeeId": "e2",
+    "weekOf": "2026-03-16",
+    "emotionalState": "content",
+    "stressLevel": 4,
+    "workloadIntensity": 5,
+    "customerDifficulty": 3,
+    "textFeedback": "Had a good productive week. Managed to resolve most tickets efficiently. Team collaboration was great this week.",
+    "sentimentScore": 0.62,
+    "sentimentLabel": "Positive",
+    "overallScore": 35,
+    "burnoutRisk": "Low",
+    "aiInsights": [
+      "Great job maintaining a positive outlook! Keep up the excellent work.",
+      "Your productivity levels are above average this week.",
+      "Continue leveraging team collaboration as it boosts your performance."
+    ]
+  },
+  {
+    "id": "f3",
+    "employeeId": "e3",
+    "weekOf": "2026-03-16",
+    "emotionalState": "tired",
+    "stressLevel": 6,
+    "workloadIntensity": 7,
+    "customerDifficulty": 5,
+    "textFeedback": "Feeling a bit drained after pushing through targets. Work was manageable but the constant pressure is taking a toll. Not terrible but not great either.",
+    "sentimentScore": -0.15,
+    "sentimentLabel": "Neutral",
+    "overallScore": 55,
+    "burnoutRisk": "Moderate",
+    "aiInsights": [
+      "You appear to be in a moderate stress zone. Consider prioritizing tasks to avoid overwhelm.",
+      "Taking a proper lunch break away from your desk could help recharge.",
+      "Your workload has been consistently high - discuss realistic targets with your manager."
+    ]
+  },
+  {
+    "id": "f4",
+    "employeeId": "e4",
+    "weekOf": "2026-03-16",
+    "emotionalState": "happy",
+    "stressLevel": 3,
+    "workloadIntensity": 4,
+    "customerDifficulty": 2,
+    "textFeedback": "Wonderful week! The new tools we got are making everything smoother. I feel appreciated and motivated to do well.",
+    "sentimentScore": 0.8,
+    "sentimentLabel": "Positive",
+    "overallScore": 25,
+    "burnoutRisk": "Low",
+    "aiInsights": [
+      "Excellent well-being score! You're in a healthy zone.",
+      "Your positive attitude is contagious — consider mentoring new team members.",
+      "Keep maintaining your current work-life balance routine."
+    ]
+  },
+  {
+    "id": "f5",
+    "employeeId": "e5",
+    "weekOf": "2026-03-16",
+    "emotionalState": "frustrated",
+    "stressLevel": 9,
+    "workloadIntensity": 9,
+    "customerDifficulty": 8,
+    "textFeedback": "Terrible week. Too many angry customers, unrealistic targets, and no support. I am exhausted and frustrated. Feel like I am burning out quickly.",
+    "sentimentScore": -0.88,
+    "sentimentLabel": "Negative",
+    "overallScore": 87,
+    "burnoutRisk": "High",
+    "aiInsights": [
+      "⚠️ Your burnout risk is very high. Please speak with your manager or HR immediately.",
+      "Consider taking a mental health day if possible to recover.",
+      "Document the issues you're facing so your concerns can be addressed systematically."
+    ]
+  },
+  {
+    "id": "f6",
+    "employeeId": "e1",
+    "weekOf": "2026-03-09",
+    "emotionalState": "content",
+    "stressLevel": 5,
+    "workloadIntensity": 6,
+    "customerDifficulty": 4,
+    "textFeedback": "Average week overall. Some tough moments but nothing out of the ordinary. Managed to wrap up everything on time.",
+    "sentimentScore": 0.1,
+    "sentimentLabel": "Neutral",
+    "overallScore": 48,
+    "burnoutRisk": "Moderate",
+    "aiInsights": [
+      "Your stress is in a manageable range this week.",
+      "Stay mindful of any increasing trends in the coming weeks.",
+      "Good job completing tasks on time despite challenges."
+    ]
+  },
+  {
+    "id": "f7",
+    "employeeId": "e5",
+    "weekOf": "2026-03-09",
+    "emotionalState": "stressed",
+    "stressLevel": 8,
+    "workloadIntensity": 8,
+    "customerDifficulty": 7,
+    "textFeedback": "Another tough week. The pressure never lets up. Starting to dread coming to work every morning. Need a break badly.",
+    "sentimentScore": -0.72,
+    "sentimentLabel": "Negative",
+    "overallScore": 78,
+    "burnoutRisk": "High",
+    "aiInsights": [
+      "This is the second consecutive week of high stress. Immediate intervention recommended.",
+      "Please discuss workload redistribution with your manager.",
+      "Consider utilizing any employee assistance programs available."
+    ]
+  },
+  {
+    "id": "67c81e23-8876-4a80-92f9-36df1aac0363",
+    "employeeId": "e4",
+    "weekOf": "2026-03-23",
+    "emotionalState": "anxious",
+    "stressLevel": 8,
+    "workloadIntensity": 8,
+    "customerDifficulty": 9,
+    "textFeedback": "iusghwiguh",
+    "sentimentScore": 0,
+    "sentimentLabel": "Neutral",
+    "overallScore": 79,
+    "burnoutRisk": "High",
+    "aiInsights": [
+      "⚠️ Your burnout risk is high this week. Please consider speaking with your manager or HR for support.",
+      "Your stress level was very elevated. Try scheduling short 5-minute breaks between tasks to decompress.",
+      "Your workload intensity is concerning. Discuss task redistribution with your team lead.",
+      "Consider utilizing employee assistance programs or wellness resources available to you."
+    ]
+  },
+  {
+    "id": "20ac26ad-77a0-477d-a7ff-d02d120eeaf3",
+    "employeeId": "e2",
+    "weekOf": "2026-03-23",
+    "emotionalState": "frustrated",
+    "stressLevel": 10,
+    "workloadIntensity": 8,
+    "customerDifficulty": 10,
+    "textFeedback": "bad",
+    "sentimentScore": -0.5,
+    "sentimentLabel": "Negative",
+    "overallScore": 92,
+    "burnoutRisk": "High",
+    "aiInsights": [
+      "⚠️ Your burnout risk is high this week. Please consider speaking with your manager or HR for support.",
+      "Your stress level was very elevated. Try scheduling short 5-minute breaks between tasks to decompress.",
+      "Your workload intensity is concerning. Discuss task redistribution with your team lead.",
+      "Consider utilizing employee assistance programs or wellness resources available to you."
+    ]
+  },
+  {
+    "id": "8344c138-49bd-4100-ba94-f5b5bbd4cbfc",
+    "employeeId": "e1",
+    "weekOf": "2026-03-23",
+    "emotionalState": "anxious",
+    "stressLevel": 10,
+    "workloadIntensity": 10,
+    "customerDifficulty": 10,
+    "textFeedback": "jhgu",
+    "sentimentScore": 0,
+    "sentimentLabel": "Neutral",
+    "overallScore": 95,
+    "burnoutRisk": "High",
+    "aiInsights": [
+      "⚠️ Your burnout risk is high this week. Please consider speaking with your manager or HR for support.",
+      "Your stress level was very elevated. Try scheduling short 5-minute breaks between tasks to decompress.",
+      "Your workload intensity is concerning. Discuss task redistribution with your team lead.",
+      "Consider utilizing employee assistance programs or wellness resources available to you."
+    ]
+  },
+  {
+    "id": "7f0b0d25-cced-48ca-b4e6-4a3240ef24fe",
+    "employeeId": "e1",
+    "weekOf": "2026-03-23",
+    "emotionalState": "neutral",
+    "stressLevel": 7,
+    "workloadIntensity": 4,
+    "customerDifficulty": 8,
+    "textFeedback": "had a bad this week\n",
+    "sentimentScore": -0.5,
+    "sentimentLabel": "Negative",
+    "overallScore": 64,
+    "burnoutRisk": "High",
+    "aiInsights": [
+      "⚠️ Your burnout risk is high this week. Please consider speaking with your manager or HR for support.",
+      "Consider utilizing employee assistance programs or wellness resources available to you."
+    ]
+  },
+  {
+    "id": "4e6866e4-2265-4277-8f83-c682ffc1136e",
+    "employeeId": "e1",
+    "weekOf": "2026-03-23",
+    "emotionalState": "happy",
+    "stressLevel": 2,
+    "workloadIntensity": 2,
+    "customerDifficulty": 3,
+    "textFeedback": "had a good week",
+    "sentimentScore": 0.5,
+    "sentimentLabel": "Positive",
+    "overallScore": 23,
+    "burnoutRisk": "Low",
+    "aiInsights": [
+      "Great job maintaining healthy stress levels! Keep up the excellent work.",
+      "Your positive attitude is a strength — consider mentoring colleagues who may be struggling.",
+      "Continue maintaining your current work-life balance routine."
+    ]
+  },
+  {
+    "id": "928e2167-4053-4e84-8385-28b91a46cc3c",
+    "employeeId": "e2",
+    "weekOf": "2026-03-23",
+    "emotionalState": "content",
+    "stressLevel": 3,
+    "workloadIntensity": 4,
+    "customerDifficulty": 5,
+    "textFeedback": "good week",
+    "sentimentScore": 0.5,
+    "sentimentLabel": "Positive",
+    "overallScore": 37,
+    "burnoutRisk": "Low",
+    "aiInsights": [
+      "Great job maintaining healthy stress levels! Keep up the excellent work.",
+      "Your positive attitude is a strength — consider mentoring colleagues who may be struggling.",
+      "Continue maintaining your current work-life balance routine."
+    ]
+  },
+  {
+    "id": "60e8d109-c4ce-4d18-addf-2fe03bab6479",
+    "employeeId": "e3",
+    "weekOf": "2026-03-23",
+    "emotionalState": "happy",
+    "stressLevel": 1,
+    "workloadIntensity": 1,
+    "customerDifficulty": 2,
+    "textFeedback": "well",
+    "sentimentScore": 0.3,
+    "sentimentLabel": "Positive",
+    "overallScore": 15,
+    "burnoutRisk": "Low",
+    "aiInsights": [
+      "Great job maintaining healthy stress levels! Keep up the excellent work.",
+      "Your positive attitude is a strength — consider mentoring colleagues who may be struggling.",
+      "Continue maintaining your current work-life balance routine."
+    ]
+  },
+  {
+    "id": "0009b580-513c-4e06-97ad-e81fa3c50ca0",
+    "employeeId": "e1",
+    "weekOf": "2026-03-23",
+    "emotionalState": "happy",
+    "stressLevel": 2,
+    "workloadIntensity": 3,
+    "customerDifficulty": 3,
+    "textFeedback": "good week",
+    "sentimentScore": 0.5,
+    "sentimentLabel": "Positive",
+    "overallScore": 26,
+    "burnoutRisk": "Low",
+    "aiInsights": [
+      "Great job maintaining healthy stress levels! Keep up the excellent work.",
+      "Your positive attitude is a strength — consider mentoring colleagues who may be struggling.",
+      "Continue maintaining your current work-life balance routine."
+    ]
+  },
+  {
+    "id": "f02553d1-c669-4723-849e-29ad8247e51e",
+    "employeeId": "e1",
+    "weekOf": "2026-03-23",
+    "emotionalState": "happy",
+    "stressLevel": 1,
+    "workloadIntensity": 2,
+    "customerDifficulty": 2,
+    "textFeedback": "",
+    "sentimentScore": 0,
+    "sentimentLabel": "Neutral",
+    "overallScore": 19,
+    "burnoutRisk": "Low",
+    "aiInsights": [
+      "Great job maintaining healthy stress levels! Keep up the excellent work.",
+      "Continue maintaining your current work-life balance routine."
+    ]
+  }
+]
