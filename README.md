@@ -5,7 +5,6 @@ AI-Based Weekly Employee Well-Being Pulse System
 The AI-Based Weekly Employee Well-Being Pulse System is a web-based application designed to monitor and analyze the mental well-being, stress levels, and overall work experience of front-line employees (such as sales staff, customer service representatives, and support agents).
 
 The system collects structured feedback from employees on a weekly basis (Monday–Friday summary) and uses simple AI techniques to generate meaningful insights for both employees and managers. The goal is to identify stress patterns early, prevent burnout, and improve workplace productivity and employee satisfaction.
-
 ---
 
 🎯 Purpose of the Project
