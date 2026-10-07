@@ -3,8 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import WeeklyFeedbackForm from '../components/WeeklyFeedbackForm';
 import WellBeingReport from '../components/WellBeingReport';
-
-const API = 'http://localhost:5000/api';
+import { API } from '../api';
 
 export default function EmployeeDashboard() {
   const [user, setUser] = useState(null);

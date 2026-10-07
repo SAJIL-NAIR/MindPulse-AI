@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
-
-const API = 'http://localhost:5000/api';
+import { API } from '../api';
 
 const emotions = [
   { value: 'happy', emoji: '😊', label: 'Happy' },

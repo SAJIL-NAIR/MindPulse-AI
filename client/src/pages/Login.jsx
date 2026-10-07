@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-
-const API = 'http://localhost:5000/api';
+import { API } from '../api';
 
 const users = [
   { id: 'e1', name: 'Alice Johnson', role: 'employee', dept: 'Customer Service' },

@@ -5,7 +5,6 @@ AI-Based Weekly Employee Well-Being Pulse System
 The AI-Based Weekly Employee Well-Being Pulse System is a web-based application designed to monitor and analyze the mental well-being, stress levels, and overall work experience of front-line employees (such as sales staff, customer service representatives, and support agents).
 
 The system collects structured feedback from employees on a weekly basis (Monday–Friday summary) and uses simple AI techniques to generate meaningful insights for both employees and managers. The goal is to identify stress patterns early, prevent burnout, and improve workplace productivity and employee satisfaction.
----
 
 
 🎯 Purpose of the Project
@@ -154,3 +153,33 @@ This enables managers to:
 The AI-Based Weekly Employee Well-Being Pulse System provides a structured and intelligent approach to understanding employee mental health and work conditions. By combining regular feedback with AI-driven analysis, the system bridges the gap between employees and management, enabling proactive interventions and a healthier work environment.
 
 ---
+
+## Local Development
+
+Run the backend and frontend in separate terminals:
+
+```powershell
+cd server
+npm install
+npm start
+```
+
+```powershell
+cd client
+npm install
+npm run dev
+```
+
+The frontend runs at `http://localhost:5173` and uses the backend at `http://localhost:5000` by default. The backend health check is available at `http://localhost:5000/api/health`.
+
+## Deployment
+
+Deploy the backend as a Node.js web service using `server/` as its root directory and `npm start` as its start command. The service listens on the platform-provided `PORT` (with `5000` as its local fallback). Configure `CLIENT_ORIGIN` to the exact public origin of the deployed frontend, for example `https://your-frontend.example.com`; if it is unset, the backend retains permissive CORS for local development.
+
+Deploy `client/` as a static Vite site. Use `npm install` as the install command and `npm run build` as the build command; publish the generated `dist/` directory. Set the frontend build environment variable `VITE_API_URL` to the backend's public origin, without a trailing `/api` (for example, `https://your-backend.example.com`). The existing `/api/...` paths are appended automatically. The `public/_redirects` file provides SPA fallback for static hosts that support the redirects-file convention, including direct loads and refreshes of `/login`, `/employee`, and `/manager`.
+
+Copy `client/.env.example` and `server/.env.example` for local reference. `.env.example` files are templates only; configure environment variables in the hosting platform for production. Do not put credentials or secrets in frontend environment variables.
+
+### Data persistence limitation
+
+Feedback and demo users are stored in JSON files in `server/data/`. This works for a demonstration on a writable local filesystem, but the feedback file may reset on restart or redeployment when the backend host uses an ephemeral filesystem. Multiple service instances may also have separate copies, and writes will fail if the filesystem is read-only. This deployment setup does not add persistent storage; use a host with a persistent disk if retaining submitted data is required.

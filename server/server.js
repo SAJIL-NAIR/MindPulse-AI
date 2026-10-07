@@ -9,9 +9,16 @@ const reportRoutes = require('./routes/reports');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+const corsOptions = process.env.CLIENT_ORIGIN
+  ? {
+      origin: (origin, callback) => {
+        callback(null, !origin || origin === process.env.CLIENT_ORIGIN);
+      }
+    }
+  : undefined;
 
 // Middleware
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(bodyParser.json());
 
 // Routes
@@ -25,5 +32,5 @@ app.get('/api/health', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`\n🟢  Well-Being Pulse API running on http://localhost:${PORT}\n`);
+  console.log(`\n🟢  Well-Being Pulse API running on port ${PORT}\n`);
 });

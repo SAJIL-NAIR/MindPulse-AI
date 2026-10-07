@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-
-const API = 'http://localhost:5000/api';
+import { API } from '../api';
 
 export default function ManagerDashboard() {
   const [user, setUser] = useState(null);
